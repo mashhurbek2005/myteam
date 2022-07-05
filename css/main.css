@@ -3,6 +3,7 @@
 :root {
   --main-text-color: #fff;
   --main-hero-bg-color: #014e56;
+  --main-three-bg-color: #004047;
   --main-link-hover-color: #f67e7e;
   --main-font-weight: 600;
   --header-link-text-color: #002529;
@@ -86,65 +87,89 @@ body {
   flex-grow: 1;
 }
 
-.site-header {
-  padding-top: 73px;
-  padding-bottom: 53px;
-  background-color: var(--main-hero-bg-color);
+.three {
+  padding-top: 140px;
+  padding-bottom: 151px;
+  background-image: url("/images/turtburchak.svg"),
+    url("/images/three-ong-tomon.svg");
+  background-size: 147px 100px, 200px 200px;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 602px) calc(50% - 363px),
+    calc(50% + 575px) calc(50% + 371px);
+  background-color: var(--main-three-bg-color);
 }
 
-.site-header__big-box {
+.three__big-box {
+  width: 932px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.three__big-tex {
+  margin: 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.three__color {
+  color: #79c8c7;
+}
+.three__list {
   display: flex;
   align-items: center;
-}
-.site-header__img {
-  display: block;
-  width: 160px;
-  height: 40px;
-}
-
-.site-header__list {
+  justify-content: center;
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  align-items: center;
 }
-.site-header__itms:nth-child(1) {
-  margin-right: 40px;
-  margin-left: 80px;
-}
-.site-header__text {
-  text-decoration: none;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  color: var(--main-text-color);
+.three__itms {
+  width: 350px;
+  margin-top: 52px;
+  margin-right: 30px;
+  padding-top: 40px;
+  background-image: url("/images/qushtirnoq.svg");
+  background-size: 67px 56px;
+  background-repeat: no-repeat;
+  background-position: calc(50%) calc(50% - 120px);
 }
 
-.site-header__text:hover {
-  color: var(--main-link-hover-color);
-}
-
-.contact {
+.three__itms::after {
+  display: block;
+  margin-top: 32px;
+  margin-right: auto;
   margin-left: auto;
-  padding: 7px 31px 9px 30px;
-  text-decoration: none;
+  content: "";
+  width: 62px;
+  height: 62px;
+  background-image: url("/images/ackili-qiz.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.three__itms:nth-child(2)::after {
+  background-image: url("/images/qora-sochli-qiz.png");
+}
+.three__itms:nth-child(3)::after {
+  background-image: url("/images/chol.png");
+}
+
+.three__itms-text {
+  margin: 0;
+  margin-bottom: 24px;
   font-family: "Livvic";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
-  border: 2px solid #ffffff;
-  border-radius: 24px;
-  color: var(--main-text-color);
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.contact:hover {
-  background-color: var(--main-text-color);
-  color: var(--header-link-text-color);
-}
+
+.three__itms-big-text {
 
 
 .hero {
@@ -165,36 +190,28 @@ body {
   margin-right: 30px;
 }
 .hero__big-text {
+
   margin: 0;
   font-family: "Livvic";
   font-style: normal;
   font-weight: 700;
-  font-size: 100px;
-  line-height: 100px;
-  color: var(--main-text-color);
-}
-.hero__color-text {
-  color: var(--main-link-hover-color);
-}
-.hero__mini-text-box {
-  display: inline-block;
-  width: 445px;
-}
-.hero__mini-text-box::before {
-  display: block;
-  margin-bottom: 79px;
-  content: "";
-  width: 50px;
-  height: 4px;
-  background: #79c8c7;
-}
-.hero__mini-text {
-  margin: 0;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+.three__itms-mini-text-box {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+.three__itms-mini-text {
+  margin: 0;
+  font-family: "Livvic";
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
   color: var(--main-text-color);
 }
 
