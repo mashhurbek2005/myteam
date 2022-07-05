@@ -1,11 +1,41 @@
 /* VARIABLES */
 
 :root{
-  /* --main-text-color : #fff; */
-  /* --main-bg-color : #fff; */
-  /* --main-font-size : 16px; */
-  /* --main-font-weight : 400; */
-  /* --main-line-height : 1.5; */
+  --main-text-color : #fff;
+  --main-hero-bg-color : #014E56;
+  --main-link-hover-color : #F67E7E;
+  --main-font-weight : 600;
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/livvic-v13-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/livvic-v13-latin-regular.woff") format("woff");
+}
+/* livvic-italic - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/livvic-v13-latin-italic.woff2") format("woff2"), 
+       url("../fonts/livvic-v13-latin-italic.woff") format("woff"); 
+}
+/* livvic-600 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v13-latin-600.woff2") format("woff2"), 
+       url("../fonts/livvic-v13-latin-600.woff") format("woff");
+}
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v13-latin-700.woff2") format("woff2"), 
+       url("../fonts/livvic-v13-latin-700.woff") format("woff"); 
 }
 
 /* GENERAL */
@@ -26,10 +56,8 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", "Arial", sans-serif; */
-  /* font-size: 16px; */
-  /* font-weight: 400; */
-  /* line-height: var(--main-line-height); */
+  font-family: "Livvic", "Arial", sans-serif;
+  font-weight: 400;
 }
 
 
@@ -49,11 +77,9 @@ body{
 /* CONTAINER */
 
 .container{
-  /* max-width: your-size-here; */
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* STICKY-FOOTER */
