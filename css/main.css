@@ -87,6 +87,123 @@ body {
   flex-grow: 1;
 }
 
+/* SITE HEADER start */
+
+.site-header {
+  padding-top: 73px;
+  padding-bottom: 53px;
+  background-color: var(--main-hero-bg-color);
+}
+
+.site-header__big-box {
+  display: flex;
+  align-items: center;
+}
+.site-header__img {
+  display: block;
+  width: 160px;
+  height: 40px;
+}
+
+.site-header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.site-header__itms:nth-child(1) {
+  margin-right: 40px;
+  margin-left: 80px;
+}
+.site-header__text {
+  text-decoration: none;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+
+.site-header__text:hover {
+  color: var(--main-link-hover-color);
+}
+
+.contact {
+  margin-left: auto;
+  padding: 7px 31px 9px 30px;
+  text-decoration: none;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  color: var(--main-text-color);
+}
+
+.contact:hover {
+  background-color: var(--main-text-color);
+  color: var(--header-link-text-color);
+}
+
+/* SITE HERO begin */
+
+.hero {
+  padding-top: 76px;
+  padding-bottom: 250px;
+  background-color: var(--main-hero-bg-color);
+  background-image: url("/images/chap-tomon.svg"),
+    url("/images/ong-pastki-qism.svg");
+  background-position: calc(50% - 720px) calc(50% - 87px),
+    calc(50% + 341px) calc(50% + 270px);
+  background-repeat: no-repeat;
+  background-size: 200px 200px, 358px 200px;
+}
+
+.hero__big-box {
+  display: inline-block;
+  width: 620px;
+  margin-right: 30px;
+}
+.hero__big-text {
+  margin: 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: var(--main-text-color);
+}
+.hero__color-text {
+  color: var(--main-link-hover-color);
+}
+.hero__mini-text-box {
+  display: inline-block;
+  width: 445px;
+}
+.hero__mini-text-box::before {
+  display: block;
+  margin-bottom: 79px;
+  content: "";
+  width: 50px;
+  height: 4px;
+  background: #79c8c7;
+}
+.hero__mini-text {
+  margin: 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-text-color);
+}
+
+
+
 .three {
   padding-top: 140px;
   padding-bottom: 151px;
@@ -183,6 +300,18 @@ body {
   color: var(--main-text-color);
 }
 
+.three__itms-big-text {
+  margin: 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+
+/* BUILD section start */
 
 .build{
   padding-top: 198px;
