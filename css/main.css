@@ -408,3 +408,153 @@ body {
   opacity: 0.8;
 
 }
+
+
+/* READY SECTION :start */
+
+.ready{
+  padding: 76px 0;
+  background-color: var(--main-link-hover-color);
+  background-image: url("../images/ready-bg.svg");
+  background-size: 200px 244px;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 602px) 56px;
+}
+
+.ready__box{
+  width: 917px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ready__title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+}
+
+.ready__link{
+  display: block;
+  padding: 7px 31px 9px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #012F34;
+  border: 2px solid #012F34;
+  border-radius: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ready__link:hover{
+  color: #fff;
+  background-color: #012F34;
+  transition: all 0.3s ease;
+}
+
+/* SITE FOOTER start */
+
+.site-footer{
+  padding: 48px 0;
+  background-color: #002529;
+}
+
+.site-footer__inner{
+  display: flex;
+  align-items: center;
+}
+
+.site-nav__list{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-top: 25px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.site-nav__item--home{
+  margin-right: 40px;
+}
+
+.site-nav__link{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.site-nav__link:hover{
+  color: var(--main-link-hover-color);
+  transition: all 0.3s ease;
+}
+
+.site-footer__middle{
+  width: 170px;
+  margin-right: auto;
+  margin-left: 125px;
+}
+
+.site-footer__address{
+  font-style: normal;
+}
+
+.site-footer__address-link{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.site-footer__tel{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.social{
+  display: flex;
+}
+
+.site-footer__end{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social__link{
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.social__link:hover{
+  color: var(--main-link-hover-color);
+  transition: all 0.3s ease;
+}
+
+.social__link:not(:last-child){
+  margin-right: 16px;
+}
+
+.site-footer__strong{
+  display: block;
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
