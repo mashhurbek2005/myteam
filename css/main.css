@@ -168,38 +168,6 @@ body {
   color: #ffffff;
 }
 
-
-.three__itms-big-text {
-
-
-.hero {
-  padding-top: 76px;
-  padding-bottom: 250px;
-  background-color: var(--main-hero-bg-color);
-  background-image: url("/images/chap-tomon.svg"),
-    url("/images/ong-pastki-qism.svg");
-  background-position: calc(50% - 720px) calc(50% - 87px),
-    calc(50% + 341px) calc(50% + 270px);
-  background-repeat: no-repeat;
-  background-size: 200px 200px, 358px 200px;
-}
-
-.hero__big-box {
-  display: inline-block;
-  width: 620px;
-  margin-right: 30px;
-}
-.hero__big-text {
-
-  margin: 0;
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-  color: #79c8c7;
-}
 .three__itms-mini-text-box {
   width: 350px;
   display: flex;
